@@ -1,117 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Larry Okuonghae | Portfolio</title>
-  <style>
-    * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', sans-serif; }
-    body { background-color: #f9f9fb; color: #333; line-height: 1.6; }
-    header { background: #0046be; color: white; padding: 2rem 0; text-align: center; }
-    header h1 { font-size: 2rem; margin-bottom: 0.5rem; }
-    header p { font-size: 1rem; opacity: 0.9; }
-
-    nav { text-align: center; background: #e6e9ef; padding: 1rem; }
-    nav a { margin: 0 1rem; color: #0046be; text-decoration: none; font-weight: 600; }
-    nav a:hover { text-decoration: underline; }
-
-    section { max-width: 900px; margin: 3rem auto; padding: 0 1rem; }
-    h2 { color: #0046be; margin-bottom: 1rem; }
-    .project, .experience-item { background: white; padding: 1.5rem; border-radius: 10px; margin-bottom: 1.5rem; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
-
-    .contact a { color: #0046be; text-decoration: none; font-weight: 600; }
-    .contact a:hover { text-decoration: underline; }
-
-    footer { text-align: center; padding: 2rem; background: #e6e9ef; color: #444; margin-top: 2rem; }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About | Larry Okuonghae</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
   <header>
     <h1>Larry Okuonghae</h1>
-    <p>Computer Programming & Analysis Student | Software Developer | Tech Enthusiast</p>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="projects.html">Projects</a>
+      <a href="reviews.html">Tech Reviews</a>
+      <a href="contact.html">Contact</a>
+    </nav>
   </header>
 
-  <nav>
-    <a href="#about">About</a>
-    <a href="#projects">Projects</a>
-    <a href="#experience">Experience</a>
-    <a href="#contact">Contact</a>
-  </nav>
-
-  <section id="about">
-    <h2>About Me</h2>
-    <p>
-      I’m a Computer Programming and Analysis student at Seneca Polytechnic (GPA 3.9) with hands-on experience 
-      in full-stack development, accessibility, and IT governance. Currently completing a co-op as a 
-      Software Developer with the Ontario Ministry of Public and Business Service Delivery and Procurement, 
-      enhancing accessibility, performance, and security in public digital services. Passionate about 
-      technology, innovation, and helping people discover meaningful solutions through software.
-    </p>
-  </section>
-
-  <section id="projects">
-    <h2>Projects</h2>
-
-    <div class="project">
-      <h3>Food Ordering System (C++)</h3>
-      <p>Developed a C++ program for managing restaurant orders, applying OOP principles and file I/O for persistent data storage.</p>
-      <p><a href="https://github.com/Elo07" target="_blank">View on GitHub →</a></p>
-    </div>
-
-    <div class="project">
-      <h3>Web Application with User Authentication (Node.js, Express, PostgreSQL)</h3>
-      <p>Built a secure full-stack web app for user registration and login using bcrypt.js and client-sessions. Deployed on Vercel.</p>
-      <p><a href="https://github.com/Elo07" target="_blank">View on GitHub →</a></p>
-    </div>
-
-    <div class="project">
-      <h3>Social Assistance Digital Application (Angular, Spring Boot)</h3>
-      <p>Contributed to front-end and back-end development on an Ontario government digital service, improving accessibility and performance.</p>
-      <p><em>Professional project (limited public details)</em></p>
-    </div>
-  </section>
-
-  <section id="experience">
-    <h2>Experience</h2>
-
-    <div class="experience-item">
-      <h3>Software Developer Co-op</h3>
-      <p><strong>Ontario Ministry of Public and Business Service Delivery and Procurement</strong> | May 2025 – Dec 2025</p>
-      <ul>
-        <li>Improved accessibility and performance for the Social Assistance Digital Application (SADA).</li>
-        <li>Worked with Angular, Spring Boot, and Azure DevOps in an Agile team environment.</li>
-        <li>Enhanced application security by resolving vulnerabilities and optimizing content security policies.</li>
-      </ul>
-    </div>
-
-    <div class="experience-item">
-      <h3>Sales Associate – H&M</h3>
-      <p><strong>Toronto, ON</strong> | Aug 2022 – Sep 2023</p>
-      <ul>
-        <li>Delivered personalized service, achieved sales targets, and maintained a positive customer experience.</li>
-      </ul>
-    </div>
-
-    <div class="experience-item">
-      <h3>Administrative Assistant – Roehampton</h3>
-      <p><strong>Toronto, ON</strong> | Apr 2020 – Jul 2022</p>
-      <ul>
-        <li>Managed documentation, communication, and administrative processes across departments.</li>
-      </ul>
-    </div>
-  </section>
-
-  <section id="contact" class="contact">
-    <h2>Contact</h2>
-    <p>📧 <a href="mailto:okuonghaelarry@gmail.com">okuonghaelarry@gmail.com</a></p>
-    <p>💼 <a href="https://linkedin.com/in/ehimwenma" target="_blank">linkedin.com/in/ehimwenma</a></p>
-    <p>💻 <a href="https://github.com/Elo07" target="_blank">github.com/Elo07</a></p>
-  </section>
-
-  <footer>
-    <p>© 2025 Larry Okuonghae | Built with 💻 and passion</p>
-  </footer>
-
+  <main>
+    <section>
+      <h2>About Me</h2>
+      <p>I’m a Computer Programming and Analysis student at Seneca Polytechnic (GPA 3.9) with hands-on experience in full-stack development, accessibility, and IT governance. Currently completing a co-op as a Software Developer with the Ontario Ministry of Public and Business Service Delivery and Procurement, enhancing accessibility, performance, and security in public digital services. Passionate about technology, innovation, and helping people discover meaningful solutions through software.</p>
+    </section>
+  </main>
 </body>
 </html>
